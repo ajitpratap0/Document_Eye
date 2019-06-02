@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hyperverge Eye</string>
+    <string name="image_from_gallery">Image from Gallery</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="scanned_and_saved_images_displayed_here">scanned and saved images displayed here</string>
+    <string name="shows_image_in_full_screen">shows image in full screen</string>
+    <string name="share_button">share button</string>
+    <string name="download_button">download button</string>
+</resources>

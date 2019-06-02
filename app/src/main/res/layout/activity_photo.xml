@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/colorPrimaryDark"
+    app:cardElevation="24dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:padding="12dp">
+
+        <ImageView
+            android:contentDescription="@string/shows_image_in_full_screen"
+            android:id="@+id/imageview_fullscreen"
+            android:layout_above="@id/shareView"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:padding="4dp"
+            android:scaleType="center" />
+
+        <ImageView
+            android:contentDescription="@string/share_button"
+            android:id="@+id/shareView"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_toStartOf="@id/downloadView"
+            android:layout_width="wrap_content"
+            android:tint="#ffffff"
+            app:srcCompat="@drawable/ic_share" />
+
+        <ImageView
+            android:contentDescription="@string/download_button"
+            android:id="@+id/downloadView"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:tint="#ffffff"
+            app:srcCompat="@drawable/ic_cloud_computing" />
+
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
